@@ -4,6 +4,7 @@ import JoditEditor from "jodit-react";
 type Props = {};
 
 const page = (props: Props) => {
+	// IMPORTANT: doesnt work properly with tailwind base in global as it affects listing
 	const editor = useRef(null);
 	const [content, setContent] = useState("");
 
